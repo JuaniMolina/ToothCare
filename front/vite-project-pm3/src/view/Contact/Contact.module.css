@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 74vh ;
+}
+
+.datos{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgba(39, 67, 90, 0.712);
+    border-radius: 50px;
+    width: 50%;
+}
+
+.datos p a{
+    color:white
+}
+
+.datos p a:hover{
+    color:rgb(160, 29, 29)
+}
